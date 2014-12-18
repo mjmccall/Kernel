@@ -1,0 +1,1 @@
+cmd_lib/built-in.o :=  /pub/CIS520/usr/arm/bin/arm-angstrom-linux-gnueabi-ld -EL    -r -o lib/built-in.o lib/bcd.o lib/div64.o lib/sort.o lib/parser.o lib/halfmd4.o lib/debug_locks.o lib/random32.o lib/bust_spinlocks.o lib/hexdump.o lib/kasprintf.o lib/bitmap.o lib/scatterlist.o lib/string_helpers.o lib/iomap_copy.o lib/devres.o lib/hweight.o lib/plist.o lib/bitrev.o lib/crc32.o 

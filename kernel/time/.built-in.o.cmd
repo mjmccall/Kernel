@@ -1,0 +1,1 @@
+cmd_kernel/time/built-in.o :=  /pub/CIS520/usr/arm/bin/arm-angstrom-linux-gnueabi-ld -EL    -r -o kernel/time/built-in.o kernel/time/timekeeping.o kernel/time/ntp.o kernel/time/clocksource.o kernel/time/jiffies.o kernel/time/timer_list.o kernel/time/clockevents.o kernel/time/tick-common.o kernel/time/tick-oneshot.o kernel/time/tick-sched.o 

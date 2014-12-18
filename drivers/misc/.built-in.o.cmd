@@ -1,0 +1,1 @@
+cmd_drivers/misc/built-in.o :=  /pub/CIS520/usr/arm/bin/arm-angstrom-linux-gnueabi-ld -EL    -r -o drivers/misc/built-in.o drivers/misc/pmem.o drivers/misc/goldfish_audio.o drivers/misc/qemutrace/built-in.o drivers/misc/qemupipe/built-in.o drivers/misc/eeprom/built-in.o 

@@ -1,0 +1,10 @@
+make ARCH=arm vexpress_defconfig
+make ARCH=arm CROSS_COMPILE=/pub/CIS520/usr/arm/bin/arm-angstrom-linux-gnueabi- -j4
+cd test
+make
+#emulator -avd Simple -kernel arch/arm/boot/zImage -no-window -verbose &
+#adb devices
+#adb push test/ptest /data/misc
+#adb shell
+#cd /data/misc
+#./ptest
